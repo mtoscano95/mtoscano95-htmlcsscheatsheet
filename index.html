@@ -1,0 +1,1019 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mauricio's Cheatsheet</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+        <!--NAV Buttons-->
+        <nav>
+            <ul>
+                <li><a href="#HTML">HTML</a></li>
+                <li><a href="#CSS">CSS</a></li>
+                <li><a href="#NAV">NAV</a></li>
+            </ul>
+        </nav>
+    
+    <!--Heading-->
+    <h1>Front End Cheatsheet</h1>
+
+
+    <!--HTML Section-->
+    <h2 class="lang" id="HTML">HTML</h2>
+    <!--HTML Basics-->
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="4">
+                        <h3>BASICS</h3>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <h3>Tag</h3>
+                    </th>
+                    <th>
+                        <h3>Name</h3>
+                    </th>
+                    <th>
+                        <h3>Description</h3>
+                    </th>
+                    <th>
+                        <h3>Resources</h3>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>!DOCTYPE HTML</td>
+                    <td>HTML Declaration</td>
+                    <td>First line of code in HTML file letting browser know to expect HTML.</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">Link</a></td>
+                </tr>
+                <tr>
+                    <td>html</td>
+                    <td>HTML element</td>
+                    <td>This is typically the second line of code in an HTML file. This element contains all HTML code.</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">Link</a></td>
+                </tr>
+                <tr>
+                    <td>head</td>
+                    <td>Head</td>
+                    <td>Element that contains metadata. link and title elements typically are found inside the head element.</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">Link</a></td>
+                </tr>
+                <tr>
+                    <td>title</td>
+                    <td>Title</td>
+                    <td> Element helping us specify the title of web page. The text here will be the text reflected in the tab of a browser. Title tags must go inside of the head element.</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">Link</a></td>
+                </tr>
+                <tr>
+                    <td>a</td>
+                    <td>Anchor</td>
+                    <td>Element used to link to internal pages, external pages or content on the same page. Combining anchor tags with ID help jump to different elements/parts of same page. "target=_blank" attribute opens link on new tab. </td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">Link</a></td>
+                </tr>
+                <tr>
+                    <td>body</td>
+                    <td>Body</td>
+                    <td>Element containing any visible content.</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">Link</a></td>
+                </tr>
+                <tr>
+                    <td>p & div</td>
+                    <td>Paragraph and Division</td>
+                    <td>Block elements. Start and end with a new line in browser. Specify text or blocks.</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">Link</a></td>
+                </tr>
+                    <td>span</td>
+                    <td>Span</td>
+                    <td>Inline element. Part of the current line. Specify text or blocks.</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">Link</a></td>
+                <tr>
+                    <td>em</td>
+                    <td>Emphasis; Italics</td>
+                    <td>Tag used to emphasize text. Italicizes text.</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">Link</a></td>
+                </tr>
+                <tr>
+                    <td>strong</td>
+                    <td>Bold</td>
+                    <td>Tag used to emphasize text. Bolds text.</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">Link</a></td>
+                </tr>
+                <tr>
+                    <td>br</td>
+                    <td>Line breaks</td>
+                    <td>Tag used to create link breaks.</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">Link</a></td>
+                </tr>
+                <tr>
+                    <td>ol</td>
+                    <td>Numbered list</td>
+                    <td>Tag used to create numbered list.</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">Link</a></td>
+                </tr>
+                <tr>
+                    <td>ul</td>
+                    <td>Unnumbered list</td>
+                    <td>Tag used to create bulleted list.</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">Link</a></td>
+                </tr>
+                <tr>
+                    <td>li</td>
+                    <td>List item</td>
+                    <td>Tag used to represent an item in a list.</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">Link</a></td>
+                </tr>
+                <tr>
+                    <td>img</td>
+                    <td>Image</td>
+                    <td>Tag used to embed an image in an HTML page. "Src=..."" attribute used to set source. "Alt=..."" attribute is used to give image an alternate text if the image doesn't load.</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">Link</a></td>
+                </tr>
+                <tr>
+                    <td>video</td>
+                    <td>Videos</td>
+                    <td>Tag used to embed a video in an HTML page.</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">Link</a></td>
+                </tr>
+                <tr>
+                    <td>!--</td>
+                    <td>Comments</td>
+                    <td>Used to write comments in HTML.</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">Link</a></td>
+                </tr>
+            </tbody>
+        </table>
+    <!--HTML Tables Section-->
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="4">
+                        <h3>TABLES</h3>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <h3>Tag/Attributes</h3>
+                    </th>
+                    <th>
+                        <h3>Name</h3>
+                    </th>
+                    <th>
+                        <h3>Description</h3>
+                    </th>
+                    <th>
+                        <h3>Resources</h3>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>table</td>
+                    <td>Table</td>
+                    <td>Element creates a table.</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table">Link</a></td>
+                </tr>
+                <tr>
+                    <td>tr</td>
+                    <td>Table row</td>
+                    <td>Element adds rows to a table.</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table">Link</a></td>
+                </tr>
+                <tr>
+                    <td>td</td>
+                    <td>Table data</td>
+                    <td>Element adds data to a row.</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table">Link</a></td>
+                </tr>
+                <tr>
+                    <td>th</td>
+                    <td>Table heading</td>
+                    <td>Element clarifies that data is a heading. Different than thead.</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table">Link</a></td>
+                </tr>
+                <tr>
+                    <td>colspan</td>
+                    <td>Column span</td>
+                    <td>Table data can span columns using this attribute.</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table">Link</a></td>
+                </tr>
+                <tr>
+                    <td>rowspan</td>
+                    <td>Row span</td>
+                    <td>Table data can span rows using this attribute.</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table">Link</a></td>
+                </tr>
+                <tr>
+                    <td>thead</td>
+                    <td>Table head</td>
+                    <td>Table's head is created with this element.</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table">Link</a></td>
+                </tr>
+                    <td>tbody</td>
+                    <td>Table's body</td>
+                    <td>Table's body is created with this element.</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table">Link</a></td>
+                <tr>
+                    <td>tfoot</td>
+                    <td>Table's footer</td>
+                    <td>Table's footer is created with this element.</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table">Link</a></td>
+                </tr>
+            </tbody>
+        </table>
+    <!--HTML Forms Section-->
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="4">
+                        <h3>FORMS</h3>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <h3>Tag</h3>
+                    </th>
+                    <th>
+                        <h3>Name</h3>
+                    </th>
+                    <th>
+                        <h3>Description</h3>
+                    </th>
+                    <th>
+                        <h3>Resources</h3>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>form</td>
+                    <td>Form</td>
+                    <td>Element allowing users to input information into a form to send. "action=..." attribute determines where the forms information goes. "method=..."" attribute determines how information is sent or processed.</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form">Link</a></td>
+                </tr>
+                <tr>
+                    <td>input</td>
+                    <td>Input element for forms</td>
+                    <td>Element used so that users can add fields to input information in a form. We can set the "type=..." attribute to a field of our choosing. Options for type field values are: text, password, number, range, checkbox, radio, submit. We can also include a list attribute and a datalist element.</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form">Link</a></td>
+                </tr>
+                <tr>
+                    <td>select</td>
+                    <td>Dropdown list</td>
+                    <td>Element is populated with < option > elements and renders a dropdown list section.</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form">Link</a></td>
+                </tr>
+                <tr>
+                    <td>datalist</td>
+                    <td>Datalist</td>
+                    <td>Specifies a list of pre-defined options for a < input> element. This element's ID attribute must match the input elements ID attribute </td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form">Link</a></td>
+                </tr>
+                <tr>
+                    <td>textarea</td>
+                    <td>Text input field</td>
+                    <td>Element is a text input field with a customizable area. Using Col and Row attributes sets the area.</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form">Link</a></td>
+                </tr>
+            </tbody>
+        </table>
+    <!--HTML Semantic Section-->
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="4">
+                        <h3>SEMANTIC</h3>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <h3>Tag</h3>
+                    </th>
+                    <th>
+                        <h3>Name</h3>
+                    </th>
+                    <th>
+                        <h3>Description</h3>
+                    </th>
+                    <th>
+                        <h3>Resources</h3>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>header</td>
+                    <td>Header</td>
+                    <td>Element represents a container for introductory content or set of navigation. Typically contains heading elements (h1-h6), logo, icon, authorship information. Cannot be placed within footer, address or another header element.</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Glossary/Semantics">Link</a></td>
+                </tr>
+                <tr>
+                    <td>nav</td>
+                    <td>Navigation</td>
+                    <td>Element defines a set of major navigation links.</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Glossary/Semantics">Link</a></td>
+                </tr>
+                <tr>
+                    <td>main</td>
+                    <td>Main, dominant content</td>
+                    <td>Element represents the dominant content of body </td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Glossary/Semantics">Link</a></td>
+                </tr>
+                <tr>
+                    <td>footer</td>
+                    <td>Footer for document</td>
+                    <td>Defines footer for a document. Typically contains: authorship info, copyright info, contact info, sitemap, back to top links, related documents.</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Glossary/Semantics">Link</a></td>
+                </tr>
+                <tr>
+                    <td>section</td>
+                    <td>Section</td>
+                    <td>Element defines elements in a document such as chapters, headings or any other area of a doc with the same theme. </td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Glossary/Semantics">Link</a></td>
+                </tr>
+                <tr>
+                    <td>article</td>
+                    <td>Article</td>
+                    <td>Element holds content that makes sense on its own such as articles, blogs, comments etc. </td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Glossary/Semantics">Link</a></td>
+                </tr>
+                <tr>
+                    <td>aside</td>
+                    <td>Aside</td>
+                    <td>Element holds information that is related to main content but not required in  order to understand dominant info.</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Glossary/Semantics">Link</a></td>
+                </tr>
+                    <td>figure</td>
+                    <td>Media capture</td>
+                    <td>Element specifies self-contained content like illustrations, images, videos, etc.</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Glossary/Semantics">Link</a></td>
+                <tr>
+                    <td>figcaption</td>
+                    <td>Caption for media</td>
+                    <td>Element used to describe media in the figure</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Glossary/Semantics">Link</a></td>
+                </tr>
+                <tr>
+                    <td>embed</td>
+                    <td>Embed</td>
+                    <td>Element defines a container for an external resources, such as a web page, a picture, a media player, or a plug-in application.</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Glossary/Semantics">Link</a></td>
+                </tr>
+                <tr>
+                    <td>audio</td>
+                    <td>Audio</td>
+                    <td>Element used to embed sound content in a document, such as music or other audio streams. Contains one or more source attributes. Text inbetween opening and closing audio tags will show text if audio does not load.</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Glossary/Semantics">Link</a></td>
+                </tr>
+            </tbody>
+        </table>
+
+
+
+    <!--CSS Section-->
+    <h2 class="lang" id="CSS">CSS</h2>
+    <!--CSS Basics Section-->
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="4">
+                        <h3>BASICS</h3>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <h3>Tag</h3>
+                    </th>
+                    <th>
+                        <h3>Name</h3>
+                    </th>
+                    <th>
+                        <h3>Description</h3>
+                    </th>
+                    <th>
+                        <h3>Resources</h3>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>style</td>
+                    <td>style</td>
+                    <td>Element inside of head element of HTML file. For internal stylsheet.</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/style">Link</a></td>
+                </tr>
+                <tr>
+                    <td>link</td>
+                    <td>link</td>
+                    <td>Element links external stylsheet to HTML. Goes in head element of HTML file. Required Href, rel, and type attributes.</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/style">Link</a></td>
+                </tr>
+            </tbody>
+        </table>
+
+    <!--CSS Selectors Section-->
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="4">
+                        <h3>SELECTORS</h3>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <h3>Selector</h3>
+                    </th>
+                    <th>
+                        <h3>Code Example</h3>
+                    </th>
+                    <th>
+                        <h3>Description</h3>
+                    </th>
+                    <th>
+                        <h3>Resources</h3>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Type</td>
+                    <td>p{color:green;}</td>
+                    <td>Matches type of element in HTML doc. Selects all elements of a given type (I.E: P, img, etc). Least specific selector, easiest to override.</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors">Link</a></td>
+                </tr>
+                <tr>
+                    <td>Universal</td>
+                    <td>*{font-family:Helvetica}</td>
+                    <td>Selects all elements of any type. Uses * as universal selector.</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors">Link</a></td>
+                </tr>
+                <tr>
+                    <td>Class</td>
+                    <td>.green{color:green;}</td>
+                    <td>Attribute helping select an element.Multiple CSS classes can be applied to one HTML element. Classes can be reused. 2nd most specific selector. Will override Type selector but not ID.</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors">Link</a></td>
+                </tr>
+                <tr>
+                    <td>id</td>
+                    <td>#large{color:green;}</td>
+                    <td>Attribute used to give HTML element unique style. Can only be used once and have one value. Most specific selector, will override all.</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors">Link</a></td>
+                </tr>
+                <tr>
+                    <td>Attribute</td>
+                    <td>img[src*='water']{height:50px}</td>
+                    <td>Attribute targets HTML elements that already have attributes. Elements of same type (img) can be targeted differently by attribute or attribue value (src='water' or src='summer').</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors">Link</a></td>
+                </tr>
+                <tr>
+                    <td>Pseudo-Class</td>
+                    <td>p:hover{background-color:lime;}</td>
+                    <td>Keyword added to selector which specifies special state of selected elements. I.E: Hovering.</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors">Link</a></td>
+                </tr>
+            </tbody>
+        </table>
+        <table>
+            <thead>
+                <tr>
+                    <th>
+                        <h3>Concept</h3>
+                    </th>
+                    <th>
+                        <h3>Code Example</h3>
+                    </th>
+                    <th>
+                        <h3>Description</h3>
+                    </th>
+                    <th>
+                        <h3>Resources</h3>
+                    </th>                
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Specificty</td>
+                    <td></td>
+                    <td>Order by which browser decides which CSS style will be displayed. Best practice is to use lowest degree of specificty to style CSS (type)</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors">Link</a></td>
+                    
+                </tr>
+                <tr>
+                    <td>Chaining</td>
+                    <td></td>
+                    <td>Multiple selectors chained together to select an element.</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors">Link</a></td>
+                </tr>
+                <tr>
+                    <td>Descendant Combinator</td>
+                    <td></td>
+                    <td>CSS lets you select elements ensted within other elements. Add a space to selector.</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors">Link</a></td>
+                </tr>
+                <tr>
+                    <td>Unrelated Selectors</td>
+                    <td></td>
+                    <td>Multiple unrelated selectors can receive the same styles by separating the selector names with commas.</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors">Link</a></td>
+                </tr>
+            </tbody>
+        </table>
+
+    <!--CSS Visual Rules Section-->
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="4">
+                        <h3>VISUAL RULES</h3>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <h3>Concept</h3>
+                    </th>
+                    <th>
+                        <h3>Code Example</h3>
+                    </th>
+                    <th>
+                        <h3>Description</h3>
+                    </th>
+                    <th>
+                        <h3>Resources</h3>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>font-family</td>
+                    <td>p{font-family:'courier new';}</td>
+                    <td>Property used to change font or typeface. Need to have font installed or for it to be a websafe font. If font more than one word, then need to be inside quotes.</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/font-family">Link</a></td>
+                </tr>
+                <tr>
+                    <td>font-size</td>
+                    <td>p{font-size:18px;}</td>
+                    <td>Property used to change font size.</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/font-size">Link</a></td>
+                </tr>
+                <tr>
+                    <td>font-weight</td>
+                    <td>p{font-weight:bold;}</td>
+                    <td>Property used to control how thick or thin text appears. Can use text or number values (1-1000, least bold to most bold). Bold is 700, normal is 400. Not all fonts can be assigned # font weight. not all # font weight values are available to all fonts.</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight">Link</a></td>
+                </tr>
+                <tr>
+                    <td>font-style</td>
+                    <td>p{font-style:italic;}</td>
+                    <td>Text can appear in italics with the font-style property.</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/font-style">Link</a></td>
+                </tr>
+                <tr>
+                    <td>text-align</td>
+                    <td>p{text-align:center;}</td>
+                    <td>Property places text in the left right or center of parent container. Values are: left, right, center, justify, initial, inherit. </td>
+                    <td><a href="https://www.w3schools.com/cssref/pr_text_text-align.ASP">Link</a></td>
+                </tr>
+                <tr>
+                    <td>text-transform</td>
+                    <td>p{text-transform:uppercase;}</td>
+                    <td>Property used to style text into all upper or lower cases </td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/text-transform">Link</a></td>
+                </tr>
+                <tr>
+                    <td>letter-spacing</td>
+                    <td>h1{letter-spacing: 1px;}</td>
+                    <td>The letter-spacing property changes how far apart individual letters are. Values are px or em.</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/letter-spacing">Link</a></td>
+                </tr>
+                <tr>
+                    <td>word-spacing</td>
+                    <td>p{word-spacing:1px;}</td>
+                    <td>The word-spacing CSS property sets the length of space between words and between tags. Values are px or em.</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/word-spacing">Link</a></td>
+                </tr>
+                <tr>
+                    <td>line-height</td>
+                    <td>p{line-height: 1px}</td>
+                    <td>The line-height CSS property sets the height of a line box. It's commonly used to set the distance between lines of text. On block-level elements, it specifies the minimum height of line boxes within the element. On non-replaced inline elements, it specifies the height that is used to calculate line box height. Values can be em, px, number or %.</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/line-height">Link</a></td>
+                </tr>
+                <tr>
+                    <td>@font-face</td>
+                    <td>@font-face{font-family: "Open Sans"; src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2"), url("/fonts/OpenSans-Regular-webfont.woff") format("woff");}</td>
+                    <td>The @font-face CSS at-rule specifies a custom font with which to display text; the font can be loaded from either a remote server or a locally-installed font on the user's own computer.</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face">Link</a></td>
+                </tr>
+            </tbody>
+        </table>
+
+    <!--CSS Box Model Section-->
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="4">
+                        <h3>BOX MODEL</h3>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <h3>Concept</h3>
+                    </th>
+                    <th>
+                        <h3>Code Example</h3>
+                    </th>
+                    <th>
+                        <h3>Description</h3>
+                    </th>
+                    <th>
+                        <h3>Resources</h3>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Box Model</td>
+                    <td></td>
+                    <td>The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content. </td>
+                    <td><a href="https://www.w3schools.com/css/css_boxmodel.asp">Link</a></td>
+                </tr>
+                <tr>
+                    <td>Box Model Property: Margin</td>
+                    <td>p{margin: 10px 18px;}</td>
+                    <td>Margins are used to create space around elements, outside defined borders. With CSS, you have full control over the margins. There are properties for setting the margin for each side of an element (top, right, bottom, and left).</td>
+                    <td><a href="https://www.w3schools.com/css/css_margin.asp">Link</a></td>
+                </tr>
+                <tr>
+                    <td>Box Model Property: Border</td>
+                    <td>p{border: 10px normal blue;}</td>
+                    <td>The CSS border properties allow you to specify the style, width, and color of an element's border.</td>
+                    <td><a href="https://www.w3schools.com/css/css_border.asp">Link</a></td>
+                </tr>
+                <tr>
+                    <td>Box Model Property: Padding</td>
+                    <td>p{padding: 3px 40px 10px 18px}</td>
+                    <td>The CSS padding properties are used to generate space around an element's content, inside of any defined borders.With CSS, you have full control over the padding. There are properties for setting the padding for each side of an element (top, right, bottom, and left).</td>
+                    <td><a href="https://www.w3schools.com/css/css_padding.asp">Link</a></td>
+                </tr>
+                <tr>
+                    <td>Box Model: Width & Height</td>
+                    <td>h1{height: 40px width: 30px;}</td>
+                    <td>Property defines the color of the text.</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model">Link</a></td>
+                </tr>
+                <tr>
+                    <td>Box Model: Margin Collapse</td>
+                    <td></td>
+                    <td>Top and bottom margins of elements are sometimes collapsed into a single margin that is equal to the largest of the two margins.This does not happen on left and right margins! Only top and bottom margins!</td>
+                    <td><a href="https://www.w3schools.com/css/css_margin_collapse.asp">Link</a></td>
+                </tr>
+                <tr>
+                    <td>Box Model: Horizontal Margins</td>
+                    <td></td>
+                    <td>Unlike vertical margins, horizontal margins add so the total space between borders of adjacent elements is equal to the sum of the right margin of one element and left or the adjacent.</td>
+                    <td><a href="https://www.w3schools.com/css/css_margin.asp">Link</a></td>
+                </tr>
+                <tr>
+                    <td>Box Model: Margin Auto<td>
+                    <td>Horizontally centers an element inside of parent content area if it has a width. Needs width. Margin: 0 auto;</td>
+                    <td><a href="https://www.w3schools.com/css/css_margin.asp">Link</a></td>
+                </tr>
+                <tr>
+                    <td>Box Model: Overflow</td>
+                    <td>p{Overflow: scroll}</td>
+                    <td>This flag will override any style. Difficult to override so don't use unless you need to.</td>
+                    <td><a href="https://www.w3schools.com/css/css_important.asp">Link</a></td>
+                </tr>
+                <tr>
+                    <td>Box Model: Visibility</td>
+                    <td>p{Visibility:Hidden}</td>
+                    <td>Property helps hide elements from view. Common values include hidden, visible and collapse. Difference between display:none and visibility:hidden is that the latter is not removed entirely from the code/page.</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/visibility">Link</a></td>
+                </tr>
+                <tr>
+                    <td>Box Model: Default box sizing</td>
+                    <td>p{box-sizing: content-box}</td>
+                    <td>Box sizing property controls the box model used by the browser. Default value is content-box. Affected by border or padding changes.</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing">Link</a></td>
+                </tr>
+                <tr>
+                    <td>Box Model: Border box</td>
+                    <td>p{box-sizing: border-box}</td>
+                    <td>Border box value makes sure dimensions of elements remain the same regardless of border width and padding. Height and weight are fixed and padding and border are inside of the box.</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing">Link</a></td>
+                </tr>
+            </tbody>
+        </table>
+
+    <!--CSS Display and Position: Layout Section-->
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="4">
+                        <h3>DISPLAY AND POSITIONING</h3>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <h3>Concept</h3>
+                    </th>
+                    <th>
+                        <h3>Code Example</h3>
+                    </th>
+                    <th>
+                        <h3>Description</h3>
+                    </th>
+                    <th>
+                        <h3>Resources</h3>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>HTML Flow</td>
+                    <td></td>
+                    <td>When browsers render elements in the same order as they exist in the doc. CSS can style HTML elements but can also change how browser positions elements.</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>5 Positional Properties: Position</td>
+                    <td>p{posiion: value}</td>
+                    <td>The position property specifies the type of positioning method used for an element (static, relative, absolute, fixed, or sticky).</td>
+                    <td><a href="https://www.w3schools.com/cssref/pr_class_position.asp">Link</a></td>
+                </tr>
+                <tr>
+                    <td>5 Positional Properties: Position: static</td>
+                    <td>p{posiion: static}</td>
+                    <td>Default value. Elements render in order, as they appear in the document flow.</td>
+                    <td><a href="https://www.w3schools.com/cssref/pr_class_position.asp">Link</a></td>
+                </tr>
+                <tr>
+                    <td>5 Positional Properties: Position: absolute</td>
+                    <td>p{posiion: absolute}</td>
+                    <td>The element is positioned relative to its first positioned (not static) ancestor element. The element will still move with the rest of the document when the page is scrolled. Removed from the flow of the document.</td>
+                    <td><a href="https://www.w3schools.com/cssref/pr_class_position.asp">Link</a></td>
+                </tr>
+                <tr>
+                    <td>5 Positional Properties: Position: fixed</td>
+                    <td>p{posiion: fixed}</td>
+                    <td>The element is positioned relative to the browser window. The element will remain in view no matter what. Removed fromt he flow of the document.</td>
+                    <td><a href="https://www.w3schools.com/cssref/pr_class_position.asp">Link</a></td>
+                </tr>
+                <tr>
+                    <td>5 Positional Properties: Position: relative</td>
+                    <td>p{posiion: relative}</td>
+                    <td>The element is positioned relative to its normal position, so "left:20px" adds 20 pixels to the element's LEFT position.</td>
+                    <td><a href="https://www.w3schools.com/cssref/pr_class_position.asp">Link</a></td>
+                </tr>
+                <tr>
+                    <td>5 Positional Properties: Position: sticky</td>
+                    <td>p{posiion: sticky}</td>
+                    <td>The element is positioned based on the user's scroll position. A sticky element toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed).</td>
+                    <td><a href="https://www.w3schools.com/cssref/pr_class_position.asp">Link</a></td>
+                </tr>
+                <tr>
+                    <td>5 Positional Properties: Position: initial</td>
+                    <td>p{posiion: initial}</td>
+                    <td>Sets the property to the default value.</td>
+                    <td><a href="https://www.w3schools.com/cssref/pr_class_position.asp">Link</a></td>
+                </tr>
+                <tr>
+                    <td>5 Positional Properties: Position: inherit</td>
+                    <td>p{posiion: inherit}</td>
+                    <td>Inherits this property from its parent element. Read about inherit.</td>
+                    <td><a href="https://www.w3schools.com/cssref/pr_class_position.asp">Link</a></td>
+                </tr>
+                <tr>
+                    <td>5 Positional Properties: Display</td>
+                    <td>p{display: value}</td>
+                    <td>The display property allows you to control how an element flows vertically and horizontally in a document.</td>
+                    <td><a href="https://www.w3schools.com/cssref/pr_class_display.asp">Link</a></td>
+                </tr>
+                <tr>
+                    <td>5 Positional Properties: Display: inline</td>
+                    <td>p{display: inline}</td>
+                    <td>Displays an element as an inline element (like span).Inline elements take up as little space as possible, and they cannot have manually adjusted width or height. Displayed on same line as other elements.</td>
+                    <td><a href="https://www.w3schools.com/cssref/pr_class_display.asp">Link</a></td>
+                </tr>
+                <tr>
+                    <td>5 Positional Properties: Display: block</td>
+                    <td>p{display: block}</td>
+                    <td>Displays an element as a block element (like p). It starts on a new line, and takes up the whole width.</td>
+                    <td><a href="https://www.w3schools.com/cssref/pr_class_display.asp">Link</a></td>
+                </tr>
+                <tr>
+                    <td>5 Positional Properties: z-index</td>
+                    <td>p{z-index: 30}</td>
+                    <td>The z-index of an element specifies how far back or how far forward an element appears on the page when it overlaps other elements.z-index only works on positioned elements (position: absolute, position: relative, position: fixed, or position: sticky.</td>
+                    <td><a href="https://www.w3schools.com/cssref/pr_pos_z-index.asp">Link</a></td>
+                </tr>
+                <tr>
+                    <td>5 Positional Properties: float</td>
+                    <td>p{float: left}</td>
+                    <td>The float CSS property places an element on the left or right side of its container, allowing text and inline elements to wrap around it. The element is removed from the normal flow of the page, though still remaining a part of the flow (in contrast to absolute positioning).</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/float">Link</a></td>
+                </tr>
+                <tr>
+                    <td>5 Positional Properties: clear</td>
+                    <td>p{clear: left}</td>
+                    <td>The clear property controls the flow next to floated elements. Elements are pushed below left, right or both left and right floated elements.</td>
+                    <td><a href="https://www.w3schools.com/cssref/pr_class_clear.asp">Link</a></td>
+                </tr>
+            </tbody>
+        </table>
+
+    <!--CSS Colors Section-->
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="4">
+                        <h3>COLORS</h3>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <h3>Concept</h3>
+                    </th>
+                    <th>
+                        <h3>Code Example</h3>
+                    </th>
+                    <th>
+                        <h3>Description</h3>
+                    </th>
+                    <th>
+                        <h3>Resources</h3>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Colors: Named Colors</td>
+                    <td>p{color: blue}</td>
+                    <td>There are more than 140 named colors, which you can review here.</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/color_value">Link</a></td>
+                </tr>
+                <tr>
+                    <td>Colors: Hexadecimal or hex colors</td>
+                    <td>p{color: #000}</td>
+                    <td>Hexadecimal is a number system that has sixteen digits, 0 to 9 followed by “A” to “F”. Hex values always begin with # and specify values of red, blue, and green using hexadecimal numbers such as #23F41A.Six-digit hex values with duplicate values for each RGB value can be shorted to three digits.You can add opacity to color in RGB and HSL by adding a fourth value, a, which is represented as a percentage.</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/color_value">Link</a></td>
+                </tr>
+                <tr>
+                    <td>Colors: RGB colors</td>
+                    <td>p{color: rgb(7,210,50,0.33 )}</td>
+                    <td>RGB colors use the rgb() syntax with one value for red, one value for blue and one value for green.RGB values range from 0 to 255 and look like this: rgb(7, 210, 50).</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/color_value">Link</a></td>
+                </tr>
+                <tr>
+                    <td>Colors: HSL colors</td>
+                    <td>p{color: hsl(200,20%, 50%, 0.33)}</td>
+                    <td>HSL stands for hue (the color itself), saturation (the intensity of the color), and lightness (how light or dark a color is).Hue ranges from 0 to 360 and saturation and lightness are both represented as percentages like this: hsl(200, 20%, 50%).You can add opacity to color in RGB and HSL by adding a fourth value, a, which is represented as a percentage. HSL easier to adjust colors. Can also make sets of colors with same lightness and saturation but different hues.</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/color_value">Link</a></td>
+                </tr>
+                
+            </tbody>
+        </table>
+
+    <!--CSS Typography Section-->
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="4">
+                        <h3>TYPOGRAPHY</h3>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <h3>Concept</h3>
+                    </th>
+                    <th>
+                        <h3>Code Example</h3>
+                    </th>
+                    <th>
+                        <h3>Description</h3>
+                    </th>
+                    <th>
+                        <h3>Resources</h3>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Fall back Fonts</td>
+                    <td>p{font-family: caslon, georgia, 'times new roman'}</td>
+                    <td>Fallback fonts are used when a certain font is not installed on a computer. They are back-up fonts incase preferred fonts don't load. Georgia and Times new roman are fall back fonts</td>
+                    <td><a href="https://www.w3schools.com/css/css_font_fallbacks.asp">Link</a></td>
+                </tr>
+                <tr>
+                    <td>Serif</td>
+                    <td>p{font-family: arial, georgia, 'time new roman', serif}</td>
+                    <td>Serif fonts have extra details on the ends of each letter. Sans-Serif fonts do not.</td>
+                    <td><a href="https://www.w3schools.com/css/css_font.asp">Link</a></td>
+                </tr>
+                <tr>
+                    <td>Sans Serif</td>
+                    <td>p{font-family: arial, georgia, 'time new roman', sans-serif}</td>
+                    <td>Sans Serif fonts don't have extra details on the ends of each letter.</td>
+                    <td><a href="https://www.w3schools.com/css/css_font.asp">Link</a></td>
+                </tr>
+                <tr>
+                    <td>Colors: HSL colors</td>
+                    <td>p{color: hsl(200,20%, 50%, 0.33)}</td>
+                    <td>HSL stands for hue (the color itself), saturation (the intensity of the color), and lightness (how light or dark a color is).Hue ranges from 0 to 360 and saturation and lightness are both represented as percentages like this: hsl(200, 20%, 50%).You can add opacity to color in RGB and HSL by adding a fourth value, a, which is represented as a percentage. HSL easier to adjust colors. Can also make sets of colors with same lightness and saturation but different hues.</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/color_value">Link</a></td>
+                </tr>
+                
+            </tbody>
+        </table>
+
+
+
+        
+    <!--Nav Section-->
+    <h3 class="lang" id="NAV">NAVIGATION</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="4">
+                        <h3>BASICS</h3>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <h3>Concept</h3>
+                    </th>
+                    <th>
+                        <h3>Code Example</h3>
+                    </th>
+                    <th>
+                        <h3>Description</h3>
+                    </th>
+                    <th>
+                        <h3>Resources</h3>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Command Line</td>
+                    <td></td>
+                    <td>Text interface for comp. Program taking commands and passed them to computer operating system.</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Understanding_client-side_tools/Command_line">Link</a></td>
+                </tr>
+                <tr>
+                    <td>Filesystem</td>
+                    <td></td>
+                    <td>Oraganizes comp files and directories into tree structure. Root directory is parent folder.</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Understanding_client-side_tools/Command_line">Link</a></td>
+                </tr>
+                <tr>
+                    <td>ls command</td>
+                    <td>ls</td>
+                    <td>Looks at directory and lists all files and directories inside of it.</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Understanding_client-side_tools/Command_line">Link</a></td>
+                </tr>
+                <tr>
+                    <td>pwd command</td>
+                    <td>pwd</td>
+                    <td>Print working directory; outputs name of directory you're in.</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Understanding_client-side_tools/Command_line">Link</a></td>
+                </tr>
+                <tr>
+                    <td>cd command</td>
+                    <td>cd jan/memory</td>
+                    <td>Change directory; like clicking into a different folder. If Memory is a folder within Jan, this is how we get to it.</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Understanding_client-side_tools/Command_line">Link</a></td>
+                </tr>
+                <tr>
+                    <td>mkdir command</td>
+                    <td>mkdir media/TV </td>
+                    <td>Makes folder; Makes a TV folder inside of media folder.</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Understanding_client-side_tools/Command_line">Link</a></td>
+                </tr>
+                <tr>
+                    <td>touch command</td>
+                    <td>touch media.txt </td>
+                    <td>Makes text file</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Understanding_client-side_tools/Command_line">Link</a></td>
+                </tr>
+                <tr>
+                    <td>clear command</td>
+                    <td>clear </td>
+                    <td>Clears terminal</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Understanding_client-side_tools/Command_line">Link</a></td>
+                </tr>
+                <tr>
+                    <td>tab command</td>
+                    <td>tab </td>
+                    <td>Auto complete command</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Understanding_client-side_tools/Command_line">Link</a></td>
+                </tr>
+            </tbody>
+        </table>
+</body>
+</html>
